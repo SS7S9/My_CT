@@ -1,0 +1,13 @@
+click
+jsonschema
+pyyaml
+uvicorn[standard] 
+fastapi
+fastapi-utils
+pyjwt[crypto]
+
+# Test requirements
+requests
+aiosqlite
+pytest
+httpx

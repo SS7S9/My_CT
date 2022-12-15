@@ -1,0 +1,23 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "upload",
+            "command": "${python.pythonPath}",
+            "args": [
+                "setup.py",
+                "sdist",
+                "upload",
+                "-r",
+                "sense-t"
+            ],
+            "presentation": {
+                "echo": true,
+                "panel": "shared",
+                "focus": true
+            }
+        }
+    ]
+}
